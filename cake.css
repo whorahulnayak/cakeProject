@@ -1,0 +1,118 @@
+body{
+    font-family: 'Lato', sans serif;
+}
+.head-nav{
+	background-color:#AD653D !important;
+}
+.navbar-brand{
+	font-size:22px;
+	font-weight:700;
+	color:#0C0C0C;
+}
+/*#name{
+	text-align:center;
+	font-family: 'MuseoModerno', cursive;
+    position: relative;
+    top:50px;
+    left:725px;
+    color:black;
+    opacity:0.85;
+    font-size:4rem;
+    text-shadow: 0px 4px 3px rgba(100,100,0,0.4),
+	             0px 8px 13px rgba(0,0,100,0.1),
+	             0px 18px 23px rgba(0,0,100,0.4);
+}*/
+.navbar-nav{
+	font-weight:600;
+	font-size:20px;
+}
+.navbar-nav:hover{
+    font-weight:900;
+}
+#search{
+	border-color: black;
+	color:black;
+}
+#search:hover{
+	background-color: #AD6039;
+	font-size:19px;
+}
+@media (min-width: 1200px){
+	body{
+	background: url('file:///C:/Users/Admin/Downloads/anthony-espinosa-6iqpLKqeaE0-unsplash%20(1).jpg') no-repeat;
+     background-size: cover;
+     background-position:center; 
+}
+}
+@media (min-width:992px)and (max-width: 1199px){
+	body{
+		background: url('file:///C:/Users/Admin/Downloads/anthony-espinosa-6iqpLKqeaE0-unsplash%20(1).jpg') no-repeat;
+		 background-size: cover;
+     background-position:center;
+	}
+	/*#name{
+	text-align:center;
+    position: relative;
+    top:250px;
+    color:black;
+    font-size:3.75rem;
+    text-shadow: 0px 4px 3px rgba(100,100,0,0.4),
+	             0px 8px 13px rgba(0,0,100,0.1),
+	             0px 18px 23px rgba(0,0,100,0.4);
+		}*/
+
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+	body{
+		background: url('file:///C:/Users/Admin/Downloads/anthony-espinosa-6iqpLKqeaE0-unsplash%20(1).jpg') no-repeat;
+		 background-size: cover;
+     background-position:center;
+	}
+	/*#name{
+	text-align:center;
+    position: relative;
+    top:200px;
+    color:black;
+    font-size:3.5rem;
+    text-shadow: 0px 4px 3px rgba(100,100,0,0.4),
+	             0px 8px 13px rgba(0,0,100,0.1),
+	             0px 18px 23px rgba(0,0,100,0.4);
+		}*/
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body{
+		background: url('file:///C:/Users/Admin/Downloads/md.jpg') no-repeat;
+		 background-size: cover;
+     background-position:center;
+	}
+	/*#name{
+	text-align:center;
+    position: relative;
+    top:175px;
+    left:150px;
+    color:black;
+    font-size:2.25rem;
+    text-shadow: 0px 4px 3px rgba(100,100,0,0.4),
+	             0px 8px 13px rgba(0,0,100,0.1),
+	             0px 18px 23px rgba(0,0,100,0.4);
+		}*/
+}
+@media (max-width: 575px){
+	body{
+		background: url('file:///C:/Users/Admin/Downloads/sm.jpg') no-repeat;
+		 /*background-size: cover;*/
+     background-position:center;
+	}
+	/*#name{
+	text-align:center;
+    position: relative;
+    top:200px;
+    left:200px;
+    color:black;
+    font-size:3rem;
+    text-shadow: 0px 4px 3px rgba(100,100,0,0.4),
+	             0px 8px 13px rgba(0,0,100,0.1),
+	             0px 18px 23px rgba(0,0,100,0.4);
+		}*/
+}
+
